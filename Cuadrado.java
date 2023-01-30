@@ -10,7 +10,7 @@ public static void main(String[] args) {
     
     
         System.out.println("Bienvenido\nIngresa la opcion deseada");
-        System.out.println("1:Cuadrado");
+        System.out.println("Cuadrado");
         opcion = leer.nextInt();
         
         
@@ -18,18 +18,15 @@ public static void main(String[] args) {
             case 1:
                 //Cuadrado
                 System.out.println("ingresa un lado del cuadrado");
-                lado = leer.nextDouble();
-                System.out.println("ingresa la altura del cuadrado");
-                altura = leer.nextDouble();
+                lado = leer.nextDouble()
                 //perimetro
                 System.out.println("perimetro "+(perimetro = lado * 4)); 
                 //area
                 System.out.println("area "+(area = ((lado*lado))));
                 break;
-           
+ 
             default:
                 System.out.println("mensaje");
         }
-        
     }
 }
